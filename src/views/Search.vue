@@ -12,7 +12,7 @@
         <li v-for="item in results" :key="item.data[0].nasa_id">
           <p>{{ item.data[0].description }}</p>
         </li>
-      </ul>
+      </ul> 
     </div>
   </div>
 </template>
